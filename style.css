@@ -10,7 +10,7 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 110px;
+  padding: 80px;
   text-align: left;
   background-image: url("./images/landscape-test-css.jpg");
 }
@@ -23,24 +23,24 @@ body {
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: darkblue;
   position: sticky;
   top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 30px 30px;
   text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  float: left;
 }
 
 /* Change color on hover */
@@ -51,8 +51,8 @@ body {
 
 /* Active/current link */
 .navbar a.active {
-  background-color: #666;
-  color: white;
+  background-color: lightskyblue;
+  color: black;
 }
 
 /* Column container */
@@ -73,7 +73,7 @@ body {
 .main {   
   flex: 50%;
   background-color: white;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Footer */
@@ -84,23 +84,23 @@ body {
 
 /* Center the text */
 .footer p {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   color: #d8d8d8;
 }
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 20px;
-  background-color: #fff;
+  background-color: gray;
   border: 10px solid #ccc;
 }
 
 /* Styles for the post heading */
 .post h2 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 /* Styles for the post image */
