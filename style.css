@@ -11,8 +11,8 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
-  background-image: url("./images/landscape.jpg");
+  text-align: left;
+  background-image: url("./images/landscape-test-css.jpg");
 }
 
 /* Increase the font size of the heading */
@@ -45,7 +45,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: purple;
   color: black;
 }
 
@@ -63,14 +63,15 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+  flex: 50%;
+  background-color: black;
+  color: white;
+  padding: 100px;
 }
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 50%;
   background-color: white;
   padding: 20px;
 }
@@ -84,7 +85,7 @@ body {
 /* Center the text */
 .footer p {
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   color: #d8d8d8;
 }
 
@@ -93,7 +94,7 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 10px solid #ccc;
 }
 
 /* Styles for the post heading */
@@ -104,7 +105,7 @@ body {
 
 /* Styles for the post image */
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
